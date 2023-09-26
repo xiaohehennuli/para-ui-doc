@@ -1,0 +1,27 @@
+.paraui-button-demo {
+  .code-box-demo {
+    button, a {
+      margin-right: 10px;
+    }
+
+    .btn-disabled {
+      button {
+        margin-right: 0;
+      }
+
+      > span {
+        margin-right: 10px;
+      }
+    }
+
+    .split-btn-code {
+      div + div {
+        margin-left: 50px;
+      }
+
+      button {
+        margin-right: 0;
+      }
+    }
+  }
+}
